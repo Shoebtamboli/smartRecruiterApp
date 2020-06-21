@@ -2,7 +2,7 @@
 ## How to get started with smart-recruiters-app
 
 ### Clone the project 
-    git clone
+    git clone https://github.com/Shoebtamboli/smartRecruiterApp.git
 
 ### Navigate to project directory, you can run:
     cd smart-recruiters-app
