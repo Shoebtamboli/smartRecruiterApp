@@ -5,7 +5,10 @@
     git clone https://github.com/Shoebtamboli/smartRecruiterApp.git
 
 ### Navigate to project directory, you can run:
-    cd smart-recruiters-app
+    cd smartRecruiterApp
+
+### To install dependencies
+    npm install
 
 ### To run the production build run the command:
     ./run.sh
@@ -15,7 +18,7 @@
     chmod a+x ./run.sh
 
 ### The app is running on port 8080! 
-    Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 #### To run the test navigate to tests folder
     cd ..
