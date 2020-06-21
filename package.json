@@ -12,7 +12,8 @@
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"react-router-dom": "^5.2.0",
-		"react-scripts": "3.4.1"
+		"react-scripts": "3.4.1",
+		"serve": "^11.3.2"
 	},
 	"scripts": {
 		"start": "PORT=8080 react-scripts start",
@@ -24,7 +25,15 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [ ">0.2%", "not dead", "not op_mini all" ],
-		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }
