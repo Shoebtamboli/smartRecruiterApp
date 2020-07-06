@@ -35,26 +35,19 @@ class PostingDetails extends React.Component {
 	render() {
 		return (
 			<div className="details">
-				<br />
-				<br />
 				<Link to="/">back to list</Link>
-				<br />
-				<br />
-				<br />
-				<div className="post-list">
+				<div className="post-list-details">
 					<h5>{this.state.name}</h5>
 					<h6>
 						{this.state.city.city}
 						{','} {this.state.country.valueLabel}
 					</h6>
 				</div>
-				<br />
-				<div>
+				<div className="post-list-details">
 					<h4>{this.state.jobDescription.title}</h4>
 					<Markup content={this.state.jobDescription.text} />
 				</div>
-				<br />
-				<div>
+				<div className="post-list-details">
 					<h4>{this.state.jqualifications.title}</h4>
 					<Markup content={this.state.jqualifications.text} />
 				</div>

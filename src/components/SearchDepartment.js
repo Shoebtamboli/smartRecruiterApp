@@ -1,5 +1,5 @@
 import React from 'react';
-import PostingListItem from './PostingListItem';
+import PostingList from './PostingList';
 import axios from 'axios';
 
 class SearchDepartment extends React.Component {
@@ -41,22 +41,22 @@ class SearchDepartment extends React.Component {
 		let departNames = this.state.postings.map((names) => {
 			return names.department.label;
 		});
-		let uniqueSet = new Set(departNames);
+		const uniqueSet = new Set(departNames);
 		departNames = [ 'All', ...uniqueSet ];
 
 		let countryNames = this.state.postings.map((names) => {
 			return names.customField[1].valueLabel;
 		});
 
-		let uniqueSet1 = new Set(countryNames);
+		const uniqueSet1 = new Set(countryNames);
 		countryNames = [ 'All', ...uniqueSet1 ];
 
 		// filter logic for department
-		let filterbyDepartment = this.state.postings.filter((posting) => {
+		const filterbyDepartment = this.state.postings.filter((posting) => {
 			return posting.department.label === this.state.searchDepartment;
 		});
 		// filter logic for country
-		let filterbyCountry = this.state.postings.filter((posting) => {
+		const filterbyCountry = this.state.postings.filter((posting) => {
 			return posting.customField[1].valueLabel === this.state.searchCountry;
 		});
 
@@ -70,36 +70,31 @@ class SearchDepartment extends React.Component {
 		}
 
 		return (
-			<div>
-				<br />
-				<div className="drop-down">
-					<label>
-						Department:
-						<select value={this.props.value} onChange={this.searchDepartment}>
-							{departNames.map((department, i) => (
-								<option key={i} value={department}>
-									{department}
-								</option>
-							))}
-						</select>
-					</label>
-					<span className="tab" />
-					<label>
-						Country
-						<select value={this.props.value} onChange={this.searchCountry}>
-							{countryNames.map((country, i) => (
-								<option key={i} value={country}>
-									{country}
-								</option>
-							))}
-						</select>
-					</label>
+			<form>
+				<div>
+					<label className="col-sm-2 col-form-label">Department</label>
+					<select className="form-control" value={this.props.value} onChange={this.searchDepartment}>
+						{departNames.map((department, i) => (
+							<option key={i} value={department}>
+								{department}
+							</option>
+						))}
+					</select>
+
+					<label className="col-sm-3 col-form-label">Country</label>
+					<select className="form-control" value={this.props.value} onChange={this.searchCountry}>
+						{countryNames.map((country, i) => (
+							<option key={i} value={country}>
+								{country}
+							</option>
+						))}
+					</select>
 				</div>
 
 				<div className="post-list">
-					{filterPosts.map((posting) => <PostingListItem key={posting.id} posting={posting} />)}
+					<PostingList postings={filterPosts} />
 				</div>
-			</div>
+			</form>
 		);
 	}
 }
