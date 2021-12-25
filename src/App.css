@@ -1,95 +1,144 @@
-.container {
+.app {
+  background-color: rgb(252, 247, 247);
 }
 
-header {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	padding: 15px;
-	background-color: #a81a1a;
-	border-bottom: 3px solid #56e3b8;
+.container {
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-select {
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 15px;
+  color: #0a0a0a;
 }
 .post-item {
-	margin: 10px;
+  margin: 10px;
+}
+
+.list-group {
+  margin-bottom: 0;
 }
 
 .post-list {
-	margin-top: 30pt;
-	margin-bottom: 10pt;
-	width: 3300px;
-	align-content: center;
+  margin-top: 30pt;
+  margin-bottom: 10pt;
+  width: 3300px;
+  align-content: center;
+}
+
+.details {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .post-list-details {
-	margin-top: 30pt;
-	margin-bottom: 10pt;
+  margin-top: 30pt;
+  margin-bottom: 10pt;
+}
+
+.post {
+  transition: transform 750ms;
+  will-change: transform;
+  border-radius: 15px;
+  margin-top: 30pt;
+  margin-bottom: 10pt;
+  width: 3300px;
+  align-content: center;
+  justify-content: center;
+}
+.post:hover,
+.post:focus {
+  transform: translateX(20px);
 }
 
 .list-group-item {
-	display: flex;
-	background-color: #a81a1a;
-	border-bottom: 3px solid #56e3b8;
+  margin-bottom: 20px;
 }
+
 .custom-select {
-	position: relative;
-	font-family: Arial;
-	width: 200px;
+  position: relative;
+  font-family: Arial;
+  width: 200px;
 }
 
 .custom-select select {
-	display: none; /*hide original SELECT element:*/
+  display: none; /*hide original SELECT element:*/
 }
 
 .select-selected {
-	background-color: DodgerBlue;
+  background-color: DodgerBlue;
 }
 
 /*style the arrow inside the select element:*/
 .select-selected:after {
-	position: absolute;
-	content: "";
-	top: 14px;
-	right: 10px;
-	width: 0;
-	height: 0;
-	border: 6px solid transparent;
-	border-color: #fff transparent transparent transparent;
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
 }
 
 /*point the arrow upwards when the select box is open (active):*/
 .select-selected.select-arrow-active:after {
-	border-color: transparent transparent #fff transparent;
-	top: 7px;
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
 }
 
 /*style the items (options), including the selected item:*/
 .select-items div,
 .select-selected {
-	color: #ffffff;
-	padding: 8px 16px;
-	border: 1px solid transparent;
-	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-	cursor: pointer;
-	user-select: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
 }
 
 /*style items (options):*/
 .select-items {
-	position: absolute;
-	background-color: DodgerBlue;
-	top: 100%;
-	left: 0;
-	right: 0;
-	z-index: 99;
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 
 /*hide the items when the select box is closed:*/
 .select-hide {
-	display: none;
+  display: none;
 }
 
 .select-items div:hover,
 .same-as-selected {
-	background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
