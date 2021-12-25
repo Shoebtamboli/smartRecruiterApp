@@ -1,6 +1,6 @@
 {
 	"homepage": "http://shoebtamboli.github.io/smartRecruiterApp",
-	"name": "smartRecruiterApp",
+	"name": "smart-recruiter-app",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
