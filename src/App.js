@@ -15,7 +15,7 @@ class App extends Component {
           <Container>
             <Router>
               <Switch>
-                <Route path="/" exact>
+                <Route path="/smartRecruiterApp" exact>
                   <h1 className="header">Job Search App </h1>
                   <SearchDepartment />
                 </Route>

@@ -38,7 +38,7 @@ class PostingDetails extends React.Component {
   render() {
     return (
       <div className="details">
-        <Link to="/">back to list</Link>
+        <Link to="/smartRecruiterApp">back to list</Link>
         <div className="post-list-details">
           <h5>{this.state.name}</h5>
           <h6>
