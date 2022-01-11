@@ -33,3 +33,5 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 ### live preview of app
 
 Click on [smartRecruiterApp](https://shoebtamboli.github.io/smartRecruiterApp) to view it in the browser.
+
+![smartRecruiterApp Demo](smartRecruiter.gif)

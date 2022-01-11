@@ -40,7 +40,7 @@ class PostingDetails extends React.Component {
       <div className="details">
         <Link to="/smartRecruiterApp">back to list</Link>
         <div className="post-list-details">
-          <h5>{this.state.name}</h5>
+          <h4>{this.state.name}</h4>
           <h6>
             {this.state.city.city}
             {","} {this.state.country.valueLabel}
