@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6148f92e28e7fbe6111b5b213f9011e6",
+    "revision": "fee629e9ca362e3612bbabe2b530bbbe",
     "url": "/smartRecruiterApp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartRecruiterApp/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "19f28b1afc8ce8371966",
+    "revision": "f3ae66c08c9563b76d69",
     "url": "/smartRecruiterApp/static/css/main.4cbd0370.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smartRecruiterApp/static/js/2.f9ec3333.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19f28b1afc8ce8371966",
-    "url": "/smartRecruiterApp/static/js/main.6d07dbd9.chunk.js"
+    "revision": "f3ae66c08c9563b76d69",
+    "url": "/smartRecruiterApp/static/js/main.d5fed092.chunk.js"
   },
   {
     "revision": "7a31146b16e2ef8a75a0",

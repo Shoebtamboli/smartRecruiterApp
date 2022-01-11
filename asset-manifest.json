@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/smartRecruiterApp/static/css/main.4cbd0370.chunk.css",
-    "main.js": "/smartRecruiterApp/static/js/main.6d07dbd9.chunk.js",
-    "main.js.map": "/smartRecruiterApp/static/js/main.6d07dbd9.chunk.js.map",
+    "main.js": "/smartRecruiterApp/static/js/main.d5fed092.chunk.js",
+    "main.js.map": "/smartRecruiterApp/static/js/main.d5fed092.chunk.js.map",
     "runtime-main.js": "/smartRecruiterApp/static/js/runtime-main.97301866.js",
     "runtime-main.js.map": "/smartRecruiterApp/static/js/runtime-main.97301866.js.map",
     "static/css/2.af3c1da9.chunk.css": "/smartRecruiterApp/static/css/2.af3c1da9.chunk.css",
     "static/js/2.f9ec3333.chunk.js": "/smartRecruiterApp/static/js/2.f9ec3333.chunk.js",
     "static/js/2.f9ec3333.chunk.js.map": "/smartRecruiterApp/static/js/2.f9ec3333.chunk.js.map",
     "index.html": "/smartRecruiterApp/index.html",
-    "precache-manifest.6897a4d0c537657b2c25e175464d45bb.js": "/smartRecruiterApp/precache-manifest.6897a4d0c537657b2c25e175464d45bb.js",
+    "precache-manifest.79541200b94838fcae4301118067cf9a.js": "/smartRecruiterApp/precache-manifest.79541200b94838fcae4301118067cf9a.js",
     "service-worker.js": "/smartRecruiterApp/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/smartRecruiterApp/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.4cbd0370.chunk.css.map": "/smartRecruiterApp/static/css/main.4cbd0370.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.f9ec3333.chunk.js",
     "static/css/main.4cbd0370.chunk.css",
-    "static/js/main.6d07dbd9.chunk.js"
+    "static/js/main.d5fed092.chunk.js"
   ]
 }
