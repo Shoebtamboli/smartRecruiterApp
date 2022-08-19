@@ -18,7 +18,7 @@ class SearchDepartment extends React.Component {
   componentDidMount() {
     axios
       .get(
-        "https://api.smartrecruiters.com/v1/companies/smartrecruiters/postings"
+        "http://api.smartrecruiters.com/v1/companies/smartrecruiters/postings"
       )
       .then((res) => {
         this.setState({

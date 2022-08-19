@@ -18,7 +18,7 @@ class PostingDetails extends React.Component {
   componentDidMount() {
     axios
       .get(
-        "https://api.smartrecruiters.com/v1/companies/smartrecruiters/postings" +
+        "http://api.smartrecruiters.com/v1/companies/smartrecruiters/postings" +
           window.location.pathname
       )
       .then((response) => {
